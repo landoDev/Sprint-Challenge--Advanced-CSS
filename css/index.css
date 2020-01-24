@@ -137,6 +137,14 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
 }
+@keyframes titlefade {
+  from {
+    color: #F6F7F8;
+  }
+  to {
+    color: #23293B;
+  }
+}
 h1,
 h2,
 h3,
@@ -144,6 +152,8 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
+  animation-name: titlefade;
+  animation-duration: 4s;
 }
 h2 {
   font-size: 3.2rem;
